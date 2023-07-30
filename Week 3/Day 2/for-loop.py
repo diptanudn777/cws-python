@@ -9,6 +9,7 @@ Count of numbers divisible by- 5 and 6
 
 a = int(input("Enter start number = "))
 b = int(input("Enter end number = "))
+c = int(input("Enter end number = "))
 count = 0
 
 for i in range(a, b + 1):

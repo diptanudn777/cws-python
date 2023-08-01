@@ -1,6 +1,7 @@
 # Python Learning Repository
 
-![Image20230801215043](https://github.com/diptanudn777/cws-python/assets/140906436/f709cc19-6cbb-47bd-94f1-43cc0eb23e2b)
+![Image20230801215043](https://github.com/diptanudn777/cws-python/assets/140906436/a53aa450-6291-4c52-8725-4f4a846e494d)
+
 
 
 Welcome to my Python Learning Repository! This repository contains a collection of Python code files organized on a weekly basis. Each week's folder covers different topics related to Python, including Python basics, loops, functions, lists, and much more. This README will help you navigate through the repository and understand its structure.

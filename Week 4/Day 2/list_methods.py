@@ -18,6 +18,3 @@ print(a)
 
 a.append(500)
 print(a)
-
-a.append(2, 100000)
-print(a)

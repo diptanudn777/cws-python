@@ -56,16 +56,29 @@
 # print(f"The count is = {len(numbers)} and the elements are = {numbers}")
 
 # #7. Write code that takes a list of numbers and an integer 'n' as input. Print the index of the first occurrence of 'n' in the list, or print "Not found" if 'n' is not present.
-
-a = [54, 2, 1, 43, 676, 45, 45, 45, 21, 787, 45]
-num = int(input("Enter a number = "))
-if a.count(num) > 0:
-    for i in range(0, len(a)):
-        if a[i] == num:
-            print(f"{num} is at position = {i}")
-            break
+a = []
+for i in range(10):
+    i = int(input(f"Enter number {i+1}= "))
+    a.append(i)
+print(a)
+n = int(input("Enter num= "))
+if n in a:
+    print(f"{n} is at {a.index(n)} position")
 else:
-    print("Not found")
+    print(f"{n} is not found in the list")
+
+# -------------------
+
+# a = [54, 2, 1, 43, 676, 45, 45, 45, 21, 787, 45]
+# num = int(input("Enter a number = "))
+# if a.count(num) > 0:
+#     for i in range(0, len(a)):
+#         if a[i] == num:
+#             print(f"{num} is at position = {i}")
+#             break
+# else:
+#     print("Not found")
+
 
 # #8. Write code that takes a list of numbers as input and calculates the sum of elements at even indices and the sum of elements at odd indices separately. Print both sums.
 # n = int(input("How many numbers do you want to enter? "))

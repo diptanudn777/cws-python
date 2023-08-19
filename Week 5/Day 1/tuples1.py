@@ -1,5 +1,9 @@
 """
+Numbers= Integer, Float, Complex
 
+Sequence= List, Tuple, Strings
+List= Mutable
+Tuple= Immutable
 """
 
 
